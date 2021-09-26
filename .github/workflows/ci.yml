@@ -24,6 +24,6 @@ jobs:
         run: pytest
 
       - name: Launch the action
-        uses: ewjoachim/coverage-comment-action@7872b601aa9fe63357e0046572da0b6b9d655f09
+        uses: ewjoachim/coverage-comment-action@33a275e1fe3bd1dc9421a1bc85f14335eb13ff28
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
